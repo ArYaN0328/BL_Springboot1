@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class HelloController {
+
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello welcome to bridgelabz";
+        return "Hello, Spring Boot with Embedded Tomcat!";
     }
 }
+
